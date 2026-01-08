@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .menu li a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+nav .menu li a:hover{
+    color: #209047;
+    padding: auto;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #209047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #3ff180;
+    color: black;
+}
