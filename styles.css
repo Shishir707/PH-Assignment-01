@@ -49,7 +49,7 @@ nav .menu li a:hover{
     color: black;
 }
 
-.hero{
+#hero{
     position: relative;
     text-align: center;
     
@@ -96,4 +96,64 @@ nav .menu li a:hover{
 .buttons{
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
+
+.outline{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.outline:hover{
+    background-color: rgb(60, 214, 147);
+    color: black;
+}
+
+#Notes-Section{
+    max-width: 1140px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#Notes-Section h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: #212121;
+    font-weight: 700;
+}
+
+#Notes-Section p{
+    font-size: 16px;
+    color: #939090;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cards img{
+    margin-bottom: 20px;
+    background-color: rgb(232, 39, 5);
+    border-radius: 25px;
+    padding: 8px;
+}
+.card{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #212121;
+    font-weight: 600;
+}   
