@@ -42,6 +42,7 @@ nav .menu li a:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn:hover{
@@ -72,7 +73,7 @@ nav .menu li a:hover{
     color: #209047;
     padding: 6px 14px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 
