@@ -36,7 +36,8 @@ nav .menu li a:hover{
 }
 
 .btn{
-    padding: 10px 20px;
+    padding: 15px 30px;
+    font-size: 18px;
     background-color: #209047;
     color: white;
     border: none;
@@ -157,4 +158,69 @@ nav .menu li a:hover{
     margin-bottom: 10px;
     color: #212121;
     font-weight: 600;
-}   
+} 
+
+#brain-section{
+    display: flex;
+    text-align: center;
+}
+
+.message{
+    margin: 150px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.message span{
+    font-size: 16px;
+    color: #209047;
+}
+
+.message h1{
+    font-size: 48px;
+    color: #30383e;
+    font-weight: bolder;
+    text-align: left;
+    padding: 10px 0 10px;
+}
+
+.message-about{
+    font-size: 16px;
+    color: #898686;
+    margin: 20px 0 20px;
+    text-align: left;
+}
+
+.highlight-p{
+    font-size: 18px;
+    color: #000000;
+    padding: 5px;
+}
+
+.circle{
+    color: #23cf5f;
+    margin-right: 10px;
+}
+
+#early-access{
+    max-width: 1140px;
+    background-color: #edf3f3;
+    text-align: center;
+    margin: 100px 200px;
+    padding: 60px 20px;
+    border-radius: 15px;
+    
+}
+#early-access h1{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#early-access p{
+    font-size: 16px;
+    color: #606060;
+    margin: 25px;
+}
+
