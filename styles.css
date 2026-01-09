@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 nav{
     max-width: 1140px;
     margin: 0 auto;
@@ -38,7 +43,7 @@ nav .menu li a:hover{
 .btn{
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #209047;
+    background-color: #299e52;
     color: white;
     border: none;
     border-radius: 5px;
@@ -168,7 +173,6 @@ nav .menu li a:hover{
     text-align: center;
     gap: 60px;
     padding-left: 220px;
-    border: 1px solid red;
 }
 
 #brain-section img{
@@ -188,7 +192,7 @@ nav .menu li a:hover{
 }
 
 .message h1{
-    font-size: 48px;
+    font-size: 45px;
     color: #30383e;
     font-weight: bolder;
     text-align: left;
